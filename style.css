@@ -1,0 +1,60 @@
+.nav ul{
+    list-style: none;
+    background-color:gray;
+    padding: 0px;
+    margin: 0%;
+    overflow: hidden;
+}
+.nav a{
+    color: black;
+    text-decoration:none;
+    padding: 15px;
+    margin: 0%;
+    display: block;
+    text-align: center;
+
+}
+
+.nav a:hover{
+    background-color:rgb(94, 85, 85);
+}
+.nav a{
+    float: left;
+}
+.container h2{
+    text-align: center;
+    color:rgb(80, 80, 236);
+    text-transform: uppercase;
+    background-color: transparent;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn.btn-hero {
+    /* Your button styles go here */
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px 10px;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    position: fixed;
+    top: 310px;
+    /* Add any other styles you want for the button */
+}
+.btn.btn-hero.clicked {
+    background-color: #000000;
+}
+.color {
+    color: rgb(255, 1, 1);
+}
+/* .container h2{
+    position: fixed;
+    top:250px;
+    left:240px;
+} */
